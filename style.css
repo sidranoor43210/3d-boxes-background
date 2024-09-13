@@ -6,11 +6,10 @@
 }
 
 body {
-  background:linear-gradient(
-    rgb(206, 235, 169) ,
-     rgb(239, 240, 194),
-    rgb(0, 255, 213),
-     rgb(141, 141, 219));
+  background: linear-gradient(rgb(206, 235, 169),
+      rgb(239, 240, 194),
+      rgb(0, 255, 213),
+      rgb(141, 141, 219));
   font-family: 'Roboto', sans-serif;
   display: flex;
   flex-direction: column;
@@ -37,7 +36,7 @@ body {
 }
 
 .magic:focus {
-  outline: none; 
+  outline: none;
 }
 
 .magic:active {
@@ -85,7 +84,7 @@ body {
   transform: skewY(45deg);
 }
 
-.box::before{
+.box::before {
   content: '';
   background-color: #a2d0ee;
   position: absolute;
